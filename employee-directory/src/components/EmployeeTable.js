@@ -4,6 +4,7 @@ import Table from 'react-bootstrap/Table'
 
 function EmployeeTable(){
 return (
+
 <Table responsive>
   <thead>
     <tr>
