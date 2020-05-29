@@ -3,6 +3,7 @@ import React from 'react';
 import './App.css';
 import Header from "./components/Header"
 import EmployeeTable from "./components/EmployeeTable"
+import SearchBar from "./components/SearchBar"
 // class App extends React.Component{
 
 
@@ -12,6 +13,7 @@ function App() {
   return (
     <div className="App">
       <Header/>
+      <SearchBar/>
       <EmployeeTable/>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
