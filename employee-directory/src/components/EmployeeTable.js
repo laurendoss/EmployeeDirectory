@@ -7,13 +7,12 @@ return (
 <Table responsive>
   <thead>
     <tr>
-      <th>#</th>
-      <th>Table heading</th>
-      <th>Table heading</th>
-      <th>Table heading</th>
-      <th>Table heading</th>
-      <th>Table heading</th>
-      <th>Table heading</th>
+      <th>Image</th>
+      <th>Name</th>
+      <th>Phone</th>
+      <th>Email</th>
+      <th>DOB</th>
+      
     </tr>
   </thead>
   <tbody>
@@ -23,8 +22,7 @@ return (
       <td>Table cell</td>
       <td>Table cell</td>
       <td>Table cell</td>
-      <td>Table cell</td>
-      <td>Table cell</td>
+     
     </tr>
     <tr>
       <td>2</td>
@@ -32,8 +30,7 @@ return (
       <td>Table cell</td>
       <td>Table cell</td>
       <td>Table cell</td>
-      <td>Table cell</td>
-      <td>Table cell</td>
+      
     </tr>
     <tr>
       <td>3</td>
@@ -41,8 +38,7 @@ return (
       <td>Table cell</td>
       <td>Table cell</td>
       <td>Table cell</td>
-      <td>Table cell</td>
-      <td>Table cell</td>
+      
     </tr>
   </tbody>
 </Table>
