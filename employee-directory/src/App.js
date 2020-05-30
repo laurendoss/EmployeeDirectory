@@ -6,7 +6,7 @@ import EmployeeTable from "./components/EmployeeTable"
 import SearchBar from "./components/SearchBar"
 import Employee from "./employees.json"
 import Table from 'react-bootstrap/Table'
-import Button from 'react-bootstrap/Button'
+
 class App extends Component{
 
   state = {Employee}
@@ -20,11 +20,11 @@ class App extends Component{
         <Table responsive>
       <thead>
         <tr>
-        <Button variant="outline-info"> <th>Image</th></Button>
-          <Button variant="outline-info"><th>Name</th></Button>
-          <Button variant="outline-info"> <th>Phone</th></Button>
-          <Button variant="outline-info"><th>Email</th></Button>
-          <Button variant="outline-info"><th>DOB</th></Button>
+        <button> <th>Image</th></button>
+        <button> <th>Name</th></button>
+        <button> <th>Phone</th></button>
+        <button> <th>Email</th></button>
+        <button> <th>DOB</th></button>
 
         </tr>
       </thead>
