@@ -2,6 +2,12 @@
     color: white;
     background-color: navy; 
     width: 100%;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    
+}
+h1 {
+    font-size: 75px;
+}
+h2 {
+    font-size: 40px;
 }
