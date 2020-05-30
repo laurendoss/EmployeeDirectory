@@ -1,49 +1,22 @@
-import React from 'react'; 
-import "../styles/EmployeeTable.css"; 
-import Table from 'react-bootstrap/Table'
+import React from 'react';
+import "../styles/EmployeeTable.css";
 
-function EmployeeTable(){
-return (
 
-<Table responsive>
-  <thead>
-    <tr>
-      <th>Image</th>
-      <th>Name</th>
-      <th>Phone</th>
-      <th>Email</th>
-      <th>DOB</th>
-      
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>Table cell</td>
-      <td>Table cell</td>
-      <td>Table cell</td>
-      <td>Table cell</td>
-     
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>Table cell</td>
-      <td>Table cell</td>
-      <td>Table cell</td>
-      <td>Table cell</td>
-      
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>Table cell</td>
-      <td>Table cell</td>
-      <td>Table cell</td>
-      <td>Table cell</td>
-      
-    </tr>
-  </tbody>
-</Table>
-)
+function EmployeeTable(props) {
+  return (
+
+  
+        <tr>
+          <td><img src={props.image} style={{width:"150px",height:"auto"}}/></td>
+          <td>{props.name}</td>
+          <td>{props.phone}</td>
+          <td>{props.email}</td>
+          <td>{props.dob}</td>
+
+        </tr>
+        
+    
+  )
 }
 
 export default EmployeeTable; 
