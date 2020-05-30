@@ -7,7 +7,7 @@ function EmployeeTable(props) {
 
   
         <tr>
-          <td><img src={props.image} style={{width:"150px",height:"auto"}}/></td>
+          <td><img alt="employee badge"src={props.image} style={{width:"150px",height:"auto"}}/></td>
           <td>{props.name}</td>
           <td>{props.phone}</td>
           <td>{props.email}</td>

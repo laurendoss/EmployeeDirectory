@@ -6,7 +6,16 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.btn{
+  margin-right: 100px;
+  margin-bottom: 30px;
+}
+.table td {
+  padding: none; 
+}
+img {
+  padding: none;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
