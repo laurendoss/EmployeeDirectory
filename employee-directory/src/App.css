@@ -13,8 +13,18 @@
 .table td {
   padding: none; 
 }
+button{
+  background-color: #20B2AA; 
+  color: white;
+  border-color:#20B2AA ;
+  font-style: bold;
+}
+
 img {
   padding: none;
+}
+.form-control {
+  width: 0%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
