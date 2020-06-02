@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 // import logo from './logo.svg';
 import './App.css';
 import Header from "./components/Header"
-import EmployeeTable from "./components/EmployeeTable"
+import EmployeeTable from "./components/Table"
 import SearchBar from "./components/SearchBar"
 import Employee from "./employees.json"
 import Table from 'react-bootstrap/Table'
@@ -18,7 +18,8 @@ class App extends Component{
       <div className="App">
         <Header />
         <SearchBar />
-        <Table responsive>
+        <EmployeeTable/>
+        {/* <Table responsive>
       <thead>
         <tr>
         <th><button>Image</button></th>
@@ -41,7 +42,7 @@ class App extends Component{
           />
           ))}
 </tbody>
-</Table>
+</Table> */}
       </div>
     );
   }
